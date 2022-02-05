@@ -1,0 +1,2 @@
+/home/think/systemcall/module/mywritecr0/testsyscall.o
+

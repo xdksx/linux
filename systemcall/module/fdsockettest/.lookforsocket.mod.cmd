@@ -1,0 +1,1 @@
+cmd_/home/think/systemcall/module/fdsockettest/lookforsocket.mod := { echo  /home/think/systemcall/module/fdsockettest/lookforsocket.o;  echo; } > /home/think/systemcall/module/fdsockettest/lookforsocket.mod

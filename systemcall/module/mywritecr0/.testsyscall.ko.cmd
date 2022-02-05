@@ -1,0 +1,1 @@
+cmd_/home/think/systemcall/module/mywritecr0/testsyscall.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/think/systemcall/module/mywritecr0/testsyscall.ko /home/think/systemcall/module/mywritecr0/testsyscall.o /home/think/systemcall/module/mywritecr0/testsyscall.mod.o;  true

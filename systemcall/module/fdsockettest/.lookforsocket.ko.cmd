@@ -1,0 +1,1 @@
+cmd_/home/think/systemcall/module/fdsockettest/lookforsocket.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/think/systemcall/module/fdsockettest/lookforsocket.ko /home/think/systemcall/module/fdsockettest/lookforsocket.o /home/think/systemcall/module/fdsockettest/lookforsocket.mod.o;  true

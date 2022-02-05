@@ -1,0 +1,1 @@
+cmd_/home/think/systemcall/module/replacesyscall/myopen.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/think/systemcall/module/replacesyscall/myopen.ko /home/think/systemcall/module/replacesyscall/myopen.o /home/think/systemcall/module/replacesyscall/myopen.mod.o;  true

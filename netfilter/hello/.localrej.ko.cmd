@@ -1,0 +1,1 @@
+cmd_/home/think/netfilter/hello/localrej.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/think/netfilter/hello/localrej.ko /home/think/netfilter/hello/localrej.o /home/think/netfilter/hello/localrej.mod.o;  true

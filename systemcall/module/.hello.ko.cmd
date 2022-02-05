@@ -1,0 +1,1 @@
+cmd_/home/think/systemcall/module/hello.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/think/systemcall/module/hello.ko /home/think/systemcall/module/hello.o /home/think/systemcall/module/hello.mod.o;  true

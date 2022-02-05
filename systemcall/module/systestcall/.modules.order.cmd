@@ -1,0 +1,1 @@
+cmd_/home/think/systemcall/module/systestcall/modules.order := {   echo /home/think/systemcall/module/systestcall/testsyscall.ko; :; } | awk '!x[$$0]++' - > /home/think/systemcall/module/systestcall/modules.order
